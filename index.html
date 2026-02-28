@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             background-color: #f8f9fa;
-            color: #000000; /* Changed text color to black */
+            color: #000000;
         }
 
         .container {
@@ -33,7 +33,7 @@
             color: #2d8738;
             font-size: 15px;
             margin: 0;
-            display: inline; /* Put both sentences on the same line */
+            display: inline;
         }
 
         .header .badges {
@@ -55,10 +55,10 @@
         }
 
         .content h3 {
-            font-size: 12px; /* Made it smaller */
+            font-size: 12px;
             margin-bottom: 8px;
-            color: #000000; /* Changed text color to black */
-            text-align: center; /* Centered */
+            color: #000000;
+            text-align: center;
         }
 
         .content ul {
@@ -69,7 +69,7 @@
         .content ul li {
             margin: 10px 0;
             font-size: 14px;
-            color: #000000; /* Changed text color to black */
+            color: #000000;
         }
 
         .content ul li::before {
@@ -81,10 +81,37 @@
             margin-left: -1em;
         }
 
+        /* ✅ Warning Box Added */
+        .warning-box {
+            background-color: #fff5f5;
+            border: 1px solid #f5c2c7;
+            color: #842029;
+            padding: 10px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .warning-icon {
+            background-color: #f8d7da;
+            color: #842029;
+            font-weight: bold;
+            width: 18px;
+            height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 12px;
+        }
+
         .footer {
             text-align: center;
             font-size: 14px;
-            color: #000000; /* Changed text color to black */
+            color: #000000;
             margin-top: 20px;
         }
 
@@ -94,7 +121,7 @@
             }
 
             .content h2 {
-                font-size: 12px; /* Adjusted for smaller screens */
+                font-size: 12px;
             }
 
             .content ul li {
@@ -128,7 +155,21 @@
             <li>Valid with a full-price purchase only. Not valid with other promotions or rebates.</li>
             <li>This offer is not dependent on the quality of feedback you share with us.</li>
         </ul>
-        <p style="font-size:14px"> To get started, please email <a href="mailto:suppsoffer@gmail.com">suppsoffer@gmail.com</a> with your order ID for proof of purchase.</p>
+
+        <p style="font-size:14px">
+            To get started, please email 
+            <a href="mailto:suppsoffer@gmail.com">suppsoffer@gmail.com</a> 
+            with your order ID for proof of purchase.
+        </p>
+
+        <!-- ✅ Styled Warning Box -->
+        <div class="warning-box">
+            <div class="warning-icon">!</div>
+            <div>
+                This offer is currently not available for fadogia agrestis and tongkat ali products
+            </div>
+        </div>
+
     </div>
 
     <div class="footer">
@@ -138,7 +179,3 @@
 
 </body>
 </html>
-
-
-
-
